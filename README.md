@@ -245,18 +245,6 @@ combinations across datasets and collect the best accuracy / F1 into CSV files:
 Edit the configuration block at the top of each script to select models, datasets, and hyperparameters.
 Batch results are written to `results/` and logs to `logs/`.
 
-### Model efficiency profiling
-
-`measure_models.py` reports parameter count, FLOPs, and per-sample inference latency for each model
-without training or loading real data:
-
-```bash
-py measure_models.py                                   # default: GPU (if available), 10 classes, signal length 1024
-py measure_models.py --device cpu                      # measure on CPU
-py measure_models.py --num_classes 10 --signal_size 1024
-```
-
-Results are printed as a table and saved to `model_metrics_summary.csv`.
 
 
 
