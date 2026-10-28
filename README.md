@@ -1,6 +1,6 @@
 # Transfer Learning for Fault Diagnosis
 
-#### Author: 
+
 
 #### Repository: https://github.com/ntbslgm/LibMFD
 
@@ -258,20 +258,7 @@ py measure_models.py --num_classes 10 --signal_size 1024
 
 Results are printed as a table and saved to `model_metrics_summary.csv`.
 
-## Citation
 
-If this repository is useful in your research, please cite:
-
-```latex
-@misc{TL-Bearing-Fault-Diagnosis,
-    author = {},
-    title = {LibMFD},
-    year = {2022},
-    publisher = {GitHub},
-    journal = {GitHub repository},
-    howpublished = {\url{https://github.com/ntbslgm/LibMFD}}
-}
-```
 
 ## Acknowledgement
 
